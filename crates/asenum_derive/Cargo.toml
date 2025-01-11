@@ -1,0 +1,18 @@
+[package]
+name = "asenum_derive"
+version = "0.1.0"
+authors = ["zincdev"]
+edition = "2021"
+description = "Small derive macro to safely convert the numerical value of an enum to the enum"
+repository = "https://github.com/zincdev0/rs-asenum"
+license = "Apache-2.0"
+keywords = ["derive", "proc-macro", "enums", "convert", "boilerplate"]
+categories = ["encoding", "no-std", "no-std::no-alloc", "parsing", "rust-patterns"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.92"
+quote = "1.0.38"
+syn = "2.0.95"
