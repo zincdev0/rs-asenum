@@ -10,4 +10,4 @@ keywords = ["derive", "proc-macro", "enums", "convert", "boilerplate"]
 categories = ["encoding", "no-std", "no-std::no-alloc", "parsing", "rust-patterns"]
 
 [dependencies]
-asenum = { version = "0.1.0" }
+asenum = { version = "0.1.0", path = "../../" }
